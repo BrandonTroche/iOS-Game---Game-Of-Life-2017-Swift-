@@ -19,6 +19,7 @@
 		495556A31EE7CB9E00B15D43 /* GameOfLife_2017UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495556A21EE7CB9E00B15D43 /* GameOfLife_2017UITests.swift */; };
 		495556B11EE7CC7700B15D43 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495556B01EE7CC7700B15D43 /* MSButtonNode.swift */; };
 		495556B31EE7CEA400B15D43 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495556B21EE7CEA400B15D43 /* Grid.swift */; };
+		495556B51EE8C27400B15D43 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495556B41EE8C27400B15D43 /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		495556A41EE7CB9E00B15D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495556B01EE7CC7700B15D43 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		495556B21EE7CEA400B15D43 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		495556B41EE8C27400B15D43 /* Creature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				495556821EE7CB9E00B15D43 /* GameScene.swift */,
 				495556841EE7CB9E00B15D43 /* GameViewController.swift */,
 				495556B21EE7CEA400B15D43 /* Grid.swift */,
+				495556B41EE8C27400B15D43 /* Creature.swift */,
 				495556B01EE7CC7700B15D43 /* MSButtonNode.swift */,
 				495556861EE7CB9E00B15D43 /* Main.storyboard */,
 				495556891EE7CB9E00B15D43 /* Assets.xcassets */,
@@ -278,6 +281,7 @@
 			files = (
 				495556831EE7CB9E00B15D43 /* GameScene.swift in Sources */,
 				495556851EE7CB9E00B15D43 /* GameViewController.swift in Sources */,
+				495556B51EE8C27400B15D43 /* Creature.swift in Sources */,
 				4955567D1EE7CB9E00B15D43 /* AppDelegate.swift in Sources */,
 				495556B31EE7CEA400B15D43 /* Grid.swift in Sources */,
 				495556B11EE7CC7700B15D43 /* MSButtonNode.swift in Sources */,
