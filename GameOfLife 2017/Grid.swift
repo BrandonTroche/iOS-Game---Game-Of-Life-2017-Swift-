@@ -175,6 +175,8 @@ class Grid: SKSpriteNode {
         /* Enable own touch implementation for this node */
         isUserInteractionEnabled = true
         
+        print("init")
+        
         /* Calculate individual cell dimensions */
         cellWidth = Int(size.width) / columns
         cellHeight = Int(size.height) / rows

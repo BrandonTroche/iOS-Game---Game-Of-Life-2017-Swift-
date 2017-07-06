@@ -23,7 +23,7 @@ class GameScene: SKScene {
         pauseButton = childNode(withName: "pauseButton") as! MSButtonNode
         
         gridNode = childNode(withName: "gridNode") as! Grid
-        
+
         /* Setup testing button selected handler */
         stepButton.selectedHandler = {
             self.stepSimulation()
