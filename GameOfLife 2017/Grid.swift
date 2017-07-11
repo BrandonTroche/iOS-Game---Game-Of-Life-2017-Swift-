@@ -31,7 +31,7 @@ class Grid: SKSpriteNode {
         
         /* There will only be one touch as multi touch is not enabled by default */
         let touch = touches.first!
-        let location = touch.location(in: self)
+        let location = touch.location(in: self) // Clear note that this will give a warning
         
         /* Calculate grid array position */
         let gridX = Int(location.x) / cellWidth

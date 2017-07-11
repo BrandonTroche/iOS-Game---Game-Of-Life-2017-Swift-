@@ -25,7 +25,7 @@ class GameScene: SKScene {
         gridNode = childNode(withName: "gridNode") as! Grid
 
         /* Setup testing button selected handler */
-        stepButton.selectedHandler = {
+        stepButton.selectedHandler = { //If the button is clicked
             self.stepSimulation()
         }
         
